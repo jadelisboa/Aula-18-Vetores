@@ -1,0 +1,21 @@
+Algoritmo "CONCEITO"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 01/04/2024
+Var
+// Seção de Declarações das variáveis 
+X: INTEIRO
+Y: INTEIRO
+
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+PARA X DE 1 ATE 5 FACA
+ESCREVAL("DIGITE SENAI : " , X)
+   PARA Y DE 1 ATE 3 FACA
+ESCREVAL(X, " - ", Y)
+   FIMPARA
+FIMPARA
+Fimalgoritmo
