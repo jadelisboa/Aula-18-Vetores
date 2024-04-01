@@ -1,0 +1,51 @@
+Algoritmo "SELEÇÕES"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 01/04/2024
+Var
+// Seção de Declarações das variáveis
+GOLS: VETOR [1..5,1..2] DE INTEIRO
+SELECAO: VETOR [1..5] DE CARACTERE
+PONTOS: VETOR [1..5] DE INTEIRO
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+SELECAO[1] <- "ALEMANHA"
+SELECAO[2] <- "ARGENTINA"
+SELECAO[3] <- "BRASIL"
+SELECAO[4] <- "INGLATERRA"
+SELECAO[5] <- "JAPAO"
+
+//GOLS[SELEÇÃO(1), GOLS1 F]
+                 //GOLS2 S]
+                 
+
+GOLS[1,1]<- 7
+GOLS[1,2]<- 1
+
+GOLS[2,1]<- 15
+GOLS[2,2]<- 8
+
+GOLS[3,1]<- 10
+GOLS[3,2]<- 2
+
+GOLS[4,1]<- 8
+GOLS[4,2]<- 10
+
+GOLS[5,1]<- 5
+GOLS[5,2]<- 11
+
+
+//PONTOS
+//[3] <- 9 - PONTOS
+//SELEÇÃO
+
+PONTOS[1]<- 7
+PONTOS[2]<- 9
+PONTOS[3]<- 9
+PONTOS[4]<- 5
+PONTOS[5]<- 0
+
+Fimalgoritmo
