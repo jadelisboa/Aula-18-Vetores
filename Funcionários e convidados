@@ -1,0 +1,56 @@
+Algoritmo "FUNCIONÁRIOS"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 01/04/2024
+Var
+// Seção de Declarações das variáveis
+NOME: VETOR [1..6] DE CARACTERE
+IDADE: VETOR [1..6] DE CARACTERE
+CONV: VETOR [1..6] DE CARACTERE
+IDAD: VETOR [1..6] DE INTEIRO
+TOTAL: INTEIRO
+QUANTIDADE: INTEIRO
+RESPOSTA: INTEIRO
+NUM: INTEIRO
+X: INTEIRO
+LEVARC: INTEIRO
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+   ESCREVAL("DIGITE O NÚMERO DE FUNCIONÁRIO: ")
+   LEIA(NUM)
+
+   PARA X DE 1 ATÉ NUM FAÇA
+      ESCREVAL("DIGITE SEU NOME: ")
+      LEIA(NOME[X])
+
+      ESCREVAL("DIGITE SUA IDADE: ")
+      LEIA(IDADE[X])
+
+      ESCREVAL("CASO NÃO LEVE CONVIDADOS, DIGITE 0 OU 1 PARA CONTINUAR...")
+      LEIA(LEVARC)
+      
+      SE (LEVARC <> 0 ) ENTAO
+         ESCREVAL("DIGITE O NOME DO CONVIDADO: ")
+         LEIA(CONV[X])
+
+         ESCREVAL("DIGITE A IDADE DO CONVIDADO: ")
+         LEIA(IDAD[X])
+      FIMSE
+
+
+   FIMPARA
+
+   ESCREVAL("DE QUEM VOCÊ QUER EXIBIR AS INFORMAÇÕES?")
+   LEIA(RESPOSTA)
+   
+   ESCREVAL("NOME = ", NOME[RESPOSTA])
+   ESCREVAL("IDADE = ", IDADE[RESPOSTA])
+   ESCREVAL("CONV = ", CONV[RESPOSTA])
+   ESCREVAL("IDAD = ", IDAD[RESPOSTA])
+   
+   
+   
+Fimalgoritmo
