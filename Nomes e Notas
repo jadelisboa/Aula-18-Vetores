@@ -1,0 +1,53 @@
+Algoritmo "NOTAS"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 01/04/2024
+Var
+// Seção de Declarações das variáveis 
+NOMES: VETOR[1..5] DE CARACTERE
+NOTAS: VETOR[1..5,1..3] DE REAL //3 NOTAS
+                                //NUMERO DE NOTAS
+QUANTIDADE: INTEIRO
+X, Y: INTEIRO
+RESPOSTA: INTEIRO
+SOMA, MEDIA: REAL
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+ESCREVAL("SISTEMA DE NOTAS DO COLÉGIO X")
+ESCREVAL("")
+ESCREVAL("INFORME A QUANTIDADE DE ALUNOS")
+LEIA(QUANTIDADE)
+ESCREVAL("")
+
+PARA X DE 1 ATE QUANTIDADE FACA
+//ESCREVAL("ALUNO: ", X)
+ESCREVAL("DIGITE O NOME DO ALUNO [", X , " ]° ALUNO?")
+LEIA(NOMES[X])
+
+   PARA Y DE 1 ATE 3 FACA
+ESCREVAL("ALUNO: ", X)
+ESCREVAL("NOTAS: ", Y, "ª")
+ESCREVAL("QUAL A NOTA?")
+ESCREVAL(NOTAS[X,Y])
+
+   FIMPARA
+FIMPARA
+
+ESCREVAL("INFORME NUMERO DE 1 ATÉ: " , QUANTIDADE, " PARA EXIBIR OS DADOS")
+LEIA(RESPOSTA)
+
+ESCREVAL("RESULTADOS:   ")
+ESCREVAL("NOME DO ALUNO: " + NOMES[RESPOSTA])
+SOMA <- 0
+PARA Y DE 1 ATÉ 3 FACA
+ESCREVAL(Y, "ª NOTA: ", NOTAS[RESPOSTA, Y])
+SOMA <- SOMA + NOTAS[RESPOSTA, Y])
+
+FIMPARA
+
+MEDIA <- SOMA / 3
+ESCREVAL(" MEDIA = [",MEDIA,"]")
+Fimalgoritmo
